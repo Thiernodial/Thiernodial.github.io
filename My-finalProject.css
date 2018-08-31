@@ -1,0 +1,169 @@
+.mainblock{
+	border:6px solid grey;
+	background-image: url( "https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c6a89cf0d31c8ed23b35aaf9a119a9f5&w=1000&q=80");
+	margin:auto;
+	width: 100%;
+	height:100%;
+}
+
+h1{
+	margin-left: 400px;
+	display: :center;
+	color:white;
+	font-size: 4.5em;
+
+}
+
+ol{
+	
+	font-size: 1.5em;
+}
+label{
+	color:white;
+	padding: 1.5em;
+}
+.firstbar{
+	/*border:4px solid pink;*/
+	float: right;
+	margin-right: 20px;
+}
+.title{
+	margin-top:-50px;
+
+	/*border:3px solid red;*/
+	height:150px;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/02/68/42/5957908fe6d9740.jpg");
+}
+.secondbar{
+	/*border:4px solid blue;*/
+	color: white;
+}
+h2,input{
+	display: inline-block;
+	padding: 5px;
+	margin-left: 350px;
+	
+}
+.thirdbar{
+	/*border:4px solid orange;*/
+	
+	height:90px;
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0xPgM5l/elegant-background-wedding-loop-animation_x1ej4ywvi__F0000.png");
+}
+
+.l2{
+
+	
+	background-image: url("https://wallpaper-gallery.net/images/creative-background-wallpaper/creative-background-wallpaper-8.jpg");
+}
+h2{
+	color:white;
+	font-size: 2.3em;
+	margin-left: 40px;
+}
+
+	
+.l3{
+	/*border:4px solid red;*/
+	width: 650px;
+	height:400px;
+	margin-left: 20px;
+	}
+
+p{
+	color:white;
+	margin-left: 20px;
+	font-style: italic;
+	
+}
+.rightblock{
+	/*border:4px solid green;*/
+	margin-right: 20px;
+	margin-top: -770px;
+	width:330px;
+	height: 750px;
+	float:right;
+}
+.text{
+	/*border:4px solid purple;*/
+	/*float:left;*/
+	width:650px;
+	height: 350px;
+	margin-left: 20px;
+}
+.rightblock,.l3{
+	display:inline-block;
+}
+span{
+	font-size: 2.0em;
+	margin-left: 37px;
+	font-style: bold;
+	color:white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+[class*="mainblock"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  
+    .l2 {width: 100%;}
+    .title {width: 100%;}
+    .l3 {width: 50%;}
+
+    .secondbar {width: 100%;}
+
+    .thirdbar {width: 100%;}
+    .mainblock {width: 100%;}
+}

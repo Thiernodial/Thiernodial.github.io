@@ -1,0 +1,34 @@
+
+body{
+	background-image: url( "https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c6a89cf0d31c8ed23b35aaf9a119a9f5&w=1000&q=80");
+}
+
+h1{
+	text-align: center;
+
+}
+/*ol{
+
+	font-size: 1.5em;
+}*/
+span{
+	color:yellow;
+	padding: 7.5em;
+}
+label{
+	color:black;
+	}
+.firstbar{
+	/*border:4px solid pink;**/
+	float: right;
+	margin-right: 20px;
+	background-color: red;
+	width: 1800px;
+}
+.title{
+	margin-top:-18px;
+
+	
+	height:150px;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/02/68/42/5957908fe6d9740.jpg");
+}
